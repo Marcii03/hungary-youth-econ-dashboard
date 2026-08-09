@@ -1,45 +1,27 @@
 # Hungary Youth Economic Pulse Dashboard
 
-A Python-based automated report on what the Hungarian economy looks like for young people. Pulls public [Eurostat](https://ec.europa.eu/eurostat) data, cleans it with pandas, visualizes it with matplotlib, and outputs a self-contained HTML report — no ongoing costs, runs 100% locally and offline.
+This project looks at what the Hungarian economy currently looks like for young people. It pulls public data from Eurostat, cleans and analyzes it with pandas, and turns it into an HTML report with charts covering youth unemployment, house prices, and housing affordability.
 
-## Status
+The goal was to work with real, messy economic data end to end: pulling it from an API, cleaning it, and turning it into something readable, rather than working with a pre-cleaned dataset.
 
-🚧 Work in progress — built day by day as a learning project.
+## What it covers
 
-## Charts
-
-1. **Youth vs. total unemployment** (`une_rt_a`) — Hungary, ages 15-24 vs. 15-74, 2010-latest.
-2. **House price index** (`prc_hpi_a`) — Hungary, 2015=100, 2010-latest.
-3. **Housing cost overburden rate, ages 15-29** (`ilc_lvho07a`) — Hungary vs. EU-27 average.
-4. *(Stretch goal)* Home ownership rate by age (`ilc_lvho02`).
+- Youth unemployment vs. the overall population, using Eurostat's annual unemployment data
+- House price trends over time
+- Housing cost overburden for young people in Hungary compared to the EU average
 
 ## Tech stack
 
-- Python 3
-- [`eurostat`](https://pypi.org/project/eurostat/) — fetches data as pandas DataFrames
-- pandas
-- matplotlib
+Python, pandas, matplotlib, and the Eurostat API (via the `eurostat` package). Everything runs locally with no paid services involved.
 
-## Setup
+## Status
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+Work in progress, being built step by step as part of learning applied data analysis for economics.
 
-## Usage
+## Why I built this
 
-```bash
-python main.py
-```
+I'm starting an Applied Economics degree at Corvinus University of Budapest this fall, and I wanted a project that applies data analysis to a real economic question rather than being a generic coding exercise.
 
-Generates `report.html` with embedded PNG charts.
+## A note on AI use
 
-## Why this project
-
-Built as a portfolio piece connecting an Applied Economics background (Corvinus University of Budapest) with applied data skills — real public data, real analysis, no black-box code.
-
-## AI usage
-
-Built using Claude Code as a pair programmer. Claude helped explain pandas/matplotlib concepts and provided guidance along the way, but every line was written and understood by me — I can walk through and explain any part of this codebase.
+I used Claude to help write this README and to learn pandas and matplotlib along the way. All the code itself was written by me.

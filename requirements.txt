@@ -1,0 +1,3 @@
+eurostat
+pandas
+matplotlib
