@@ -10,6 +10,18 @@ The goal was to work with real, messy economic data end to end: pulling it from 
 - House price trends over time
 - Housing cost overburden for young people in Hungary compared to the EU average
 
+## Viewing the report
+
+The finished report is `report/report.html`. GitHub doesn't display HTML files
+directly, so to view it:
+
+1. On this page, click the green "Code" button, then "Download ZIP".
+2. Unzip the downloaded folder.
+3. Open `report/report.html` in a web browser (double-click it, or right-click
+   and choose "Open with" your browser). Chrome or Firefox are recommended -
+   Safari has a known issue where the chart images won't display for local
+   files like this one.
+
 ## Tech stack
 
 Python, pandas, matplotlib, and the Eurostat API (via the `eurostat` package). Everything runs locally with no paid services involved.
