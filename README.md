@@ -1,4 +1,4 @@
-# Hungary Youth Economic Pulse Dashboard
+# Hungarian Youth Economic Conditions: Economic Data Analysis
 
 This project looks at what the Hungarian economy currently looks like for young people. It pulls public data from Eurostat, cleans and analyzes it with pandas, and turns it into an HTML report with charts covering youth unemployment, house prices, and housing affordability.
 
