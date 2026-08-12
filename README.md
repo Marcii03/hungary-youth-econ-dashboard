@@ -32,11 +32,11 @@ Python, pandas, matplotlib, and the Eurostat API (via the `eurostat` package). E
 
 ## Status
 
-Work in progress, being built step by step as part of learning applied data analysis for economics.
+Complete. Built step by step as a hands-on exercise in applied data analysis for economics.
 
 ## Why I built this
 
-I'm starting an Applied Economics degree at Corvinus University of Budapest this fall, and I wanted a project that applies data analysis to a real economic question rather than being a generic coding exercise.
+I've always been interested in economics, and wanted to build a project that goes beyond a generic coding exercise by applying real data analysis to an actual economic question.
 
 ## A note on AI use
 
