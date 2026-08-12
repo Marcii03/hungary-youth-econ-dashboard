@@ -36,4 +36,4 @@ I'm starting an Applied Economics degree at Corvinus University of Budapest this
 
 ## A note on AI use
 
-I used Claude to help write this README and to learn pandas and matplotlib along the way. All the code itself was written by me.
+I used Claude to help write this README, make the HTML page, and learn pandas and matplotlib along the way. All the code itself was written by me.
