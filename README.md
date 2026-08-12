@@ -4,6 +4,10 @@ This project looks at what the Hungarian economy currently looks like for young 
 
 The goal was to work with real, messy economic data end to end: pulling it from an API, cleaning it, and turning it into something readable, rather than working with a pre-cleaned dataset.
 
+## Report preview
+
+![Preview of the report](screenshots/report-preview.png)
+
 ## What it covers
 
 - Youth unemployment vs. the overall population, using Eurostat's annual unemployment data
